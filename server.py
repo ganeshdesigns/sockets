@@ -39,7 +39,7 @@ def remove(conn):
 list_of_clients = []
 executor = pool.ThreadPoolExecutor()
 HOST_IP = "127.0.0.1"
-PORT = 80
+PORT = 3000
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((HOST_IP, PORT))
 
